@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd natural-disasters-react-main && npm run build",
+  "outputDirectory": "natural-disasters-react-main/dist",
+  "installCommand": "cd natural-disasters-react-main && npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
